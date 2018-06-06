@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div size="A4" id="demo"></div>
+
+<script>
+var text = "";
+var i;
+for (i = 0; i < 60; i++) {
+var n = Math.floor((Math.random() * 88888) + 11111);
+    text += "<p class=\"box\"><span>"+ n +"</span></p>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
